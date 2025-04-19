@@ -1,0 +1,148 @@
+1. Calcule o valor de cada expressão abaixo e indique o tipo do resultado (inteiro ou 
+real): 
+ 
+a) (20 - 15)/2 -> 5/2 = 2.5 
+
+b) 20 - 15/2 -> 20 - 7.5 = 12.5
+
+c) 2*5/20 + 30/15*2 -> 10/20 + 2*2 -> 0.5 + 4 = 4.5
+
+d) 2*(5/20) + 30/(15*2) -> 2*0.25 + 30/30 -> 0.50 + 1 = 1.50
+
+e) 23 div 4 = 5
+
+f) 23 mod 4 = 3
+
+g) 35 div 6 + 2 -> 5 + 2 = 7
+
+h) 35 div 6 - 2 -> 5 - 2 = 3 
+
+i) 35 div 6 * 2 -> 5 * 2 = 10
+
+j) sqrt(625) = 25
+
+k) sqr(20) - 20 * 20 = 400
+
+l) 2 + sqrt(21 div 5) -> 2 + sqrt(4) -> 2 + 2 = 4
+
+
+2. Escreva em pseudocódigo, as seguintes expressões matemáticas: 
+
+a) (A + B)*C 
+resultado <- (A + B) * C
+      
+b) TOTAL / N
+media <- TOTAL / N       
+
+c) A - B(C + D^2) / E   
+resultado <- A - (B * (C + D^2)) / E
+
+d) base^expoente
+resultado <- base ^ expoente
+             
+e) a * b^c
+resultado <- a * b^c 
+
+
+3.   Considerando as variáveis declaradas na tabela abaixo e mais a variável 
+booleana TESTE, com valor FALSO, avalie as expressões a seguir, para cada 
+uma das três combinações de valores apresentadas
+
+  a) (A + 1 >= ((B) ^ (1/2)) OU (NOME <> 'ANA'))
+
+1.a) (3 + 1 >= ((16 ^ (1/2)) OU ('MIRIAM' <> 'ANA')) -> (3 + 1 >= √16 OU ('MIRIAM' <> 'ANA')) -> (4 >= 4 OU ('MIRIAM' <> 'ANA')) -> VERDADEIRO OU VERDADEIRO -> VERDADEIRO
+
+2.a) (5 + 1 >= ((64) ^ (1/2)) OU ('PEDRO' <> 'ANA')) -> (5 + 1 >= √64 OU ('PEDRO' <> 'ANA')) -> (6 >= 8 OU ('PEDRO' <> 'ANA')) -> FALSO OU VERDADEIRO -> VERDADEIRO
+
+3.a) (2.5 + 1 >= ((9) ^ (1/2)) OU ('ANA' <> 'ANA')) -> (2.5 + 1 >= √9 OU ('ANA' <> 'ANA')) -> (3.5 >= 3 OU ('ANA' <> 'ANA')) -> VERDADEIRO OU FALSO -> VERDADEIRO
+
+
+
+  b) (A + 1 >= ((B) ^ (1/2)) E (PROFISSAO = 'MEDICO')) 
+
+1.b) (3 + 1 >= ((16) ^ (1/2)) E ('ADVOGADO' = 'MEDICO')) -> (3 + 1 >= √16 E ('ADVOGADO' = 'MEDICO')) -> 4 >= 4 E ('ADVOGADO' = 'MEDICO')) -> VERDADEIRO E FALSO -> FALSO
+
+2.b) (5 + 1 >= ((64) ^ (1/2)) E ('MEDICO' = 'MEDICO')) -> (5 + 1 >= √64 E ('MEDICO' = 'MEDICO')) -> (6 >= 8 E ('MEDICO' = 'MEDICO')) -> FALSO E VERDADEIRO -> FALSO
+
+3.b) (2.5 + 1 >= ((9) ^ (1/2)) E ('PROFESSOR' = 'MEDICO')) -> (2.5 + 1 >= √9 E ('PROFESSOR' = 'MEDICO')) -> (3.5 >= 3 E ('PROFESSOR' = 'MEDICO')) -> VERDADEIRO E FALSO -> FALSO
+
+
+
+  c) (NOME <> 'ANA') OU (PROFISSAO = 'MEDICO') E (A + 1 >= ((B) ^ (1/2)))
+
+1.c) ('MIRIAM' <> 'ANA') OU ('ADVOGADO' = 'MEDICO') E (3 + 1 >= ((16) ^ (1/2))) -> ('MIRIAM' <> 'ANA') OU ('ADVOGADO' = 'MEDICO') E (4 >= √16) -> ('MIRIAM' <> 'ANA') OU ('ADVOGADO' = 'MEDICO') E (4 >= 4) -> VERDADEIRO OU FALSO E VERDADEIRO -> VERDADEIRO OU FALSO -> VERDADEIRO
+
+2.c) ('PEDRO' <> 'ANA') OU ('MEDICO' = 'MEDICO') E (5 + 1 >= ((64) ^ (1/2))) -> ('PEDRO' <> 'ANA') OU ('MEDICO' = 'MEDICO') E (6 >= √64) -> ('PEDRO' <> 'ANA') OU ('MEDICO' = 'MEDICO') E (6 >= 8) -> VERDADEIRO OU VERDADEIRO E FALSO -> VERDADEIRO OU FALSO -> VERDADEIRO
+
+3.c) ('ANA' <> 'ANA') OU ('PROFESSOR' = 'MEDICO') E (3.5 + 1 >= ((9) ^ (1/2))) -> ('ANA' <> 'ANA') OU ('PROFESSOR' = 'MEDICO') E (3.5 >= √9 -> ('ANA' <> 'ANA') OU ('PROFESSOR' = 'MEDICO') E (3.5 >= 3) -> FALSO OU FALSO E VERDADEIRO -> FALSO OU FALSO -> FALSO
+
+
+
+  d) NÃO TESTE E ((A + 1) >= ((B) ^ (1/2)) OU NÃO (PROFISSAO = 'MEDICO')) 
+
+1.d) NÃO TESTE E ((3 + 1) >= ((16) ^ (1/2)) OU NÃO ('ADVOGADO' = 'MEDICO')) -> NÃO TESTE E ((3 + 1) >= √16) OU NÃO ('ADVOGADO' = 'MEDICO')) -> NÃO TESTE E (4 >= 4) OU NÃO ('ADVOGADO' = 'MEDICO')) -> VERDADEIRO E VERDADEIRO OU VERDADEIRO -> VERDADEIRO OU VERDADEIRO -> VERDADEIRO
+
+2.d) NÃO TESTE E ((5 + 1) >= ((64) ^ (1/2)) OU NÃO ('MEDICO' = 'MEDICO')) -> NÃO TESTE E ((5 + 1) >= √64) OU NÃO ('MEDICO' = 'MEDICO')) -> NÃO TESTE E (6 >= 8) OU NÃO ('MEDICO' = 'MEDICO')) -> VERDADEIRO E FALSO OU FALSO -> FALSO OU FALSO -> FALSO 
+
+3.d) NÃO TESTE E ((2.5 + 1) >= ((9) ^ (1/2)) OU NÃO (PROFISSAO = 'MEDICO')) -> NÃO TESTE E ((2.5 + 1) >= √9) OU NÃO (PROFISSAO = 'MEDICO')) -> NÃO TESTE E (3.5 >= 3) OU NÃO (PROFISSAO = 'MEDICO')) -> VERDADEIRO E VERDADEIRO OU VERDADEIRO -> VERDADEIRO OU VERDADEIRO -> VERDADEIRO
+
+
+
+  e) NÃO (A + 1 >= ((B) ^ (1/2)) E TESTE)
+
+1.e) NÃO (3 + 1 >= ((16) ^ (1/2)) E TESTE) -> NÃO ((3 + 1 >= √16) E TESTE) -> NÃO ((4 >= 4) E TESTE) -> NÃO (VERDADEIRO E FALSO) -> NÃO FALSO -> VERDADEIRO
+
+2.e) NÃO (5 + 1 >= ((64) ^ (1/2)) E TESTE) -> NÃO ((5 + 1 >= √64) E TESTE) -> NÃO ((6 >= 8) E TESTE) -> NÃO (FALSO E FALSO) -> NÃO FALSO -> VERDADEIRO
+
+3.e) NÃO (2.5 + 1 >= ((9 ^ (1/2)) E TESTE) -> NÃO ((2.5 + 1 >= √9) E TESTE) -> NÃO ((3.5 >= 3) E TESTE) -> NÃO (VERDADEIRO E FALSO) -> NÃO FALSO -> VERDADEIRO
+
+
+  A    B    C    D    E
+1 V    F    V    V    V
+2 V    F    V    F    V
+3 V    F    F    V    V
+
+
+
+4. Coloque VERDADEIRO ou FALSO na avaliação das seguintes expressões: 
+
+a) 6 <= 7 --> VERDADEIRO
+
+b) (64) ^ (1/2) > (5)*2 --> √64 > 10 --> 8 > 10 --> FALSO 
+
+c) 'Pseudocódigo' < 'PSEUDOCÓDIGO' --> FALSO
+
+d) 'Pseudocódigo' > 'turbo' --> FALSO
+
+e) 3 + 5 <= 2 * 4 --> 8 <= 8 --> VERDADEIRO 
+
+
+
+5. Qual é o resultado das operações quando o algoritmo encontrar as seguintes 
+linhas: 
+   
+a) Escreva ('mario' = 'maria');
+FALSO
+
+b) Escreva (2 + 4 = 6);
+VERDADEIRO
+
+c) Escreva (10 - 4 > 7);
+FALSO
+
+d) Escreva ((2*3)>(3*2));
+FALSO
+
+e) Escreva (não('a' > 'A')); 
+FALSO
+
+
+
+6.  Assinale com um X os comandos de atribuição válidos. 
+   
+(X) teste = cod OU ((x)*2 <> soma) 
+(   ) tudo = soma 
+(   ) x = nome >= cor 
+(   ) cod = cor = 'verde' 
+(X) tudo = NÃO teste OU cod E (soma < x)
+
