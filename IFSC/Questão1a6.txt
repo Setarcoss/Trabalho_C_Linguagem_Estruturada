@@ -1,29 +1,29 @@
 1. Calcule o valor de cada expressão abaixo e indique o tipo do resultado (inteiro ou 
 real): 
  
-a) (20 - 15)/2 -> 5/2 = 2.5 
+a) (20 - 15)/2 -> 5/2 = 2.5 REAL
 
-b) 20 - 15/2 -> 20 - 7.5 = 12.5
+b) 20 - 15/2 -> 20 - 7.5 = 12.5 REAL
 
-c) 2*5/20 + 30/15*2 -> 10/20 + 2*2 -> 0.5 + 4 = 4.5
+c) 2*5/20 + 30/15*2 -> 10/20 + 2*2 -> 0.5 + 4 = 4.5 REAL
 
-d) 2*(5/20) + 30/(15*2) -> 2*0.25 + 30/30 -> 0.50 + 1 = 1.50
+d) 2*(5/20) + 30/(15*2) -> 2*0.25 + 30/30 -> 0.50 + 1 = 1.50 REAL
 
-e) 23 div 4 = 5
+e) 23 div 4 = 5 INTEIRO
 
-f) 23 mod 4 = 3
+f) 23 mod 4 = 3 INTEIRO 
 
-g) 35 div 6 + 2 -> 5 + 2 = 7
+g) 35 div 6 + 2 -> 5 + 2 = 7 INTEIRO
 
-h) 35 div 6 - 2 -> 5 - 2 = 3 
+h) 35 div 6 - 2 -> 5 - 2 = 3 INTEIRO
 
-i) 35 div 6 * 2 -> 5 * 2 = 10
+i) 35 div 6 * 2 -> 5 * 2 = 10 INTEIRO
 
-j) sqrt(625) = 25
+j) sqrt(625) = 25 INTEIRO 
 
-k) sqr(20) - 20 * 20 = 400
+k) sqr(20) - 20 * 20 = 400 INTEIRO 
 
-l) 2 + sqrt(21 div 5) -> 2 + sqrt(4) -> 2 + 2 = 4
+l) 2 + sqrt(21 div 5) -> 2 + sqrt(4) -> 2 + 2 = 4 INTEIRO
 
 
 2. Escreva em pseudocódigo, as seguintes expressões matemáticas: 
