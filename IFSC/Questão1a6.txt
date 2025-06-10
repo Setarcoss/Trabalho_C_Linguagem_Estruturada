@@ -1,5 +1,5 @@
 1. Calcule o valor de cada expressão abaixo e indique o tipo do resultado (inteiro ou 
-real): 
+real):
  
 a) (20 - 15)/2 -> 5/2 = 2.5 REAL
 
